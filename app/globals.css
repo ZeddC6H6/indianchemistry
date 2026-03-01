@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-matte text-white antialiased;
+  background-image: radial-gradient(circle at 10% 20%, rgba(139, 92, 246, 0.2), transparent 35%),
+    radial-gradient(circle at 80% 0%, rgba(255, 43, 214, 0.16), transparent 40%);
+}
+
+.glass-card {
+  @apply border border-white/10 bg-white/5 backdrop-blur-md;
+}
+
+.neon-border {
+  @apply border border-neonPink/60 shadow-neon;
+}
+
+.section-title {
+  @apply text-xl font-semibold tracking-wide text-neonBlue;
+}
