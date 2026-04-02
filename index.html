@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zed Chemistry Academy</title>
+  <meta name="description" content="Zed Chemistry Academy - Learn chemistry from basics to advanced with structured lessons, practice, and live mentoring." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#">⚗️ Zed Chemistry Academy</a>
+      <nav class="nav-links">
+        <a href="#courses">Courses</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#community">Community</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+      <button class="btn btn-outline">Sign in</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">For your channel: Zed Chemistry</p>
+          <h1>Learn Chemistry the Smart Way</h1>
+          <p class="subtitle">
+            A Khan Academy-style learning experience with bite-sized lessons,
+            interactive practice, progress tracking, and exam-focused pathways.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary">Start learning free</button>
+            <button class="btn btn-ghost">Watch demo class</button>
+          </div>
+          <ul class="stats">
+            <li><strong>350+</strong><span>Video lessons</span></li>
+            <li><strong>1200+</strong><span>Practice questions</span></li>
+            <li><strong>50+</strong><span>Live doubt sessions</span></li>
+          </ul>
+        </div>
+
+        <aside class="card progress-card" id="dashboard">
+          <h3>Student Dashboard</h3>
+          <p>Welcome back, learner 👋</p>
+          <div class="progress-row">
+            <span>Atomic Structure</span>
+            <strong>82%</strong>
+          </div>
+          <div class="bar"><span style="width: 82%"></span></div>
+
+          <div class="progress-row">
+            <span>Chemical Bonding</span>
+            <strong>56%</strong>
+          </div>
+          <div class="bar"><span style="width: 56%"></span></div>
+
+          <div class="progress-row">
+            <span>Organic Basics</span>
+            <strong>39%</strong>
+          </div>
+          <div class="bar"><span style="width: 39%"></span></div>
+
+          <button class="btn btn-primary full">Continue Lesson</button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="courses">
+      <div class="container">
+        <h2>Explore Learning Paths</h2>
+        <p class="section-text">Choose by class, exam goal, or chemistry topic.</p>
+
+        <div class="course-grid">
+          <article class="card">
+            <h3>Class 9–10 Foundation</h3>
+            <p>Build fundamentals with visual explanations and chapter-wise practice.</p>
+            <ul>
+              <li>Concept videos</li>
+              <li>Quick quizzes</li>
+              <li>Revision sheets</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Class 11–12 Mastery</h3>
+            <p>Dive deep into physical, organic, and inorganic chemistry with confidence.</p>
+            <ul>
+              <li>Topic drills</li>
+              <li>Numerical practice</li>
+              <li>Weekly tests</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>NEET/JEE Prep</h3>
+            <p>Exam-oriented modules with smart analytics and strategic test prep.</p>
+            <ul>
+              <li>PYQs</li>
+              <li>Mock exams</li>
+              <li>Mentor feedback</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="community">
+      <div class="container two-col">
+        <div>
+          <h2>Interactive Practice + Community Support</h2>
+          <p class="section-text">
+            Students learn faster when they practice daily and ask questions instantly.
+            Zed Chemistry Academy gives a guided study system with peer learning.
+          </p>
+          <div class="pill-wrap">
+            <span class="pill">Daily streaks</span>
+            <span class="pill">Doubt solving</span>
+            <span class="pill">Leaderboards</span>
+            <span class="pill">Smart recommendations</span>
+          </div>
+        </div>
+
+        <div class="card list-card">
+          <h3>Today's Study Plan</h3>
+          <ol>
+            <li>10 min: Atomic theory recap video</li>
+            <li>20 min: Practice set (15 MCQs)</li>
+            <li>15 min: Acids/Bases mini-assignment</li>
+            <li>10 min: Join live doubt room</li>
+          </ol>
+          <button class="btn btn-outline full">Mark as completed</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <h2>Simple Pricing</h2>
+        <div class="price-grid">
+          <article class="card">
+            <h3>Starter</h3>
+            <p class="price">Free</p>
+            <p>Perfect for trying out the platform.</p>
+            <button class="btn btn-ghost full">Get Started</button>
+          </article>
+
+          <article class="card featured">
+            <p class="tag">Most Popular</p>
+            <h3>Pro Learner</h3>
+            <p class="price">₹499/month</p>
+            <p>Full access to all courses, quizzes, and test analytics.</p>
+            <button class="btn btn-primary full">Upgrade to Pro</button>
+          </article>
+
+          <article class="card">
+            <h3>Mentor Plus</h3>
+            <p class="price">₹1499/month</p>
+            <p>Includes live mentorship, personalized roadmap, and priority support.</p>
+            <button class="btn btn-ghost full">Talk to Mentor</button>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Zed Chemistry Academy. Built for your educational channel.</p>
+      <a href="#">YouTube: Zed Chemistry</a>
+    </div>
+  </footer>
+</body>
+</html>
